@@ -1,0 +1,39 @@
+#black-italic-paragraph-text{
+    font-style: italic;
+    margin-bottom: 10px;
+    color: black;
+}
+
+#large-black-text{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#blue-hider-link-thing{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#refactor-to-do-list{
+    visibility: hidden;
+}
+
+#refactor-to-do-list ol{
+    margin: 5px;
+    padding: 5px;
+    font-family: helvetica;
+}
+
+.highlighted-blue-text{
+    font-weight: bold;
+    color: blue;
+    display: inline;
+}
+
+#additional-tools-note{
+    color: aqua;
+    background: blue;
+    padding: 10px;
+    width: 1140px;
+}

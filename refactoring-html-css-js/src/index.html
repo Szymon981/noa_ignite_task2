@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="utils.js"></script>
+    <title>Refactoring task</title>
+</head>
+<body>
+
+    <div id="black-italic-paragraph-text">
+
+        <h1 id="large-black-text">Fix this ugly code!</h1>
+        <p>
+          This page is full of violations of the DRY principle (Don't Repeat Yourself)
+            along with a number of other violations of HTML markup best practices.
+        </p>
+        <p>
+            Your goal is to refactor the HTML, CSS and JavaScript on this page so that you have
+            a clear separation of concerns between this technologies.
+        </p>
+    </div>
+
+    <p id="blue-hider-link-thing" onclick="visibilityHandler()">Click here to see suggested refactoring path!</p>
+    <div id="refactor-to-do-list">
+        <ol>
+            <li>Refactor <span class="highlighted-blue-text">inline styles</span>.</li>
+            <li>Refactor <span class="highlighted-blue-text">duplication</span> that exists in the inline style tags.</li>
+            <li>Refactor <span class="highlighted-blue-text">markup</span> to use appropriate html elements.</li>
+            <li>Refactor <span class="highlighted-blue-text">styles</span> to eliminate the property duplication.</li>
+            <li>Refactor <span class="highlighted-blue-text">javascript</span> to eliminate inline click handler.</li>
+        </ol>
+    </div>
+
+    <p id="additional-tools-note">
+      While there are number of tools available that can assist in making this refactoring easier
+        I want to challenge you to do this refactor with nothing but your brain and a text editor.
+    </p>
+
+</body>
+</html>
+
+
